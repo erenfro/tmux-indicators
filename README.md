@@ -59,6 +59,7 @@ Configuring the various options can be done by setting the various settings in y
 And the following settings are available for each tag:
 
 | Setting             | Description                        | Default |
+|---------------------|------------------------------------|---------|
 | @prefix_text        | Text for prefix indicator          | "⌨️  "   |
 | @prefix_fg          | Prefix foreground color            |         |
 | @prefix_bg          | Prefix background color            |         |
