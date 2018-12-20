@@ -47,7 +47,7 @@ default_sharedsession_attr=""
 set_tmux_option() {
   local opion=$1
   local value=$2
-  echo tmux set-option -gq "$option" "$value"
+  tmux set-option -gq "$option" "$value"
 }
 
 do_interpolation() {
